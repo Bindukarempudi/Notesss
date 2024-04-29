@@ -1,0 +1,26 @@
+HTML-hyper tet markup language
+HTML-version-5
+H1-H6 heading
+====================================================
+SQL
+DDL (Data Definition Language)
+->CREATE
+->ALTER
+->DROP
+->TRUNCATE
+->RENAME
+DML(Data Manipulation Lanuage)
+->INSERT
+->UPDATE
+->DELETE
+->SELECT
+DCL(Data Control Language)
+->GRANT
+->REVOKE
+DQL(Data query Language)
+->SELECT
+TCL(Transaction Control Language)
+->COMMIT
+->ROLLBACK
+->SAVEPOINT
+->SET TRANSACTION

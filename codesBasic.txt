@@ -1,0 +1,156 @@
+
+---reverse number
+int a=141
+int b=a;
+int temp;
+while(a!=0){
+int r=a%10;
+temp=temp*10+r;
+a=a/10;
+}
+if(b==temp){
+------------
+reverse string
+
+String s="Gadag";
+String r;
+for(int i=s.length()-1;i>=0;i--){
+r=r+s.charAt(i);
+}
+
+------------------
+Prime number
+int a=14;
+int cnt;
+for(int i=1;i<=a;i++){
+if(a%i==0){
+cnt++
+}
+}
+if(cnt==2){
+yes}
+else{
+no}
+---------------------
+String contains vowel or not
+
+String a="Hyderabad";
+for(int i=0;i<a.length();i++){
+if(a.matches("^[aeiouAEIOU]*$"){
+cnt++
+syso("a.charAt(i))
+
+
+------
+MIn and MAx in array
+int a[]={1,3,5,7,8,9}
+int min=a[0];
+int max=a[0];
+for(int i=1;i<a.length;i++){
+if(a[i]<min){
+min=a[i];
+}
+if(a[i]>max){
+max=a[i];
+}
+}
+
+
+-----------------
+Fibonacci series
+int n=10;
+int a=0,b=1;
+for(int i=1;i<=n;i++){
+syso(a);
+int sum=a+b;
+a=b;
+b=sum;
+}
+
+-------------------
+Armstrong number
+int a=153;
+int b=a;
+int sum=0;
+int digitsNum=String.valueOf(a).length();
+while(a>0){
+int d= a%10;
+sum=sum+Math.pow(d,digitsNum)
+a=a/10;
+}
+
+
+---------------------
+Pyramid pattern
+int rows=5;
+int k=0;
+for(int i=1;i<=rows;i++,k=0){
+   for(int space=1;space<=rows-i;space++){
+      syso(" ");
+   }
+   while(k !=2*i-1){
+      syso("* ");
+      k++;
+    }
+   syso();
+}
+
+-----------------
+Swapping two variables
+int a=2;
+int b=4;
+//swap using temp variable
+int c=a;
+a=b;
+b=c;
+
+//swap without using temp variable
+a=a+b;
+b=a-b;
+a=a-b;\
+------------
+
+
+ArrayList<int> ls=new ArrayList<>(Arrays.asList(a));
+Collections.sort(ls,Collections.reverseOrder());
+
+
+
+*************
+default-access with in the package
+protected -acces within the package and can access out side the package using inheritance
+private-within the class
+public-full access
+-----
+interface do not non abstract methods if u want to write non abstract method u have to use defalut keyword
+---Web driver is an interface which is used to interact eith browser and to manipulate DOm element in webpage
+
+
+
+Abstraction-
+Abstraction in java is a fundamental concept that allows us to hide the implementation details of a class or method
+and show only the necessary feature or functionalities to oustside world 
+It focuses on what an object does rather than how it achieves it.
+
+Encapsulation-
+Encapsulation in java is principle of bundling data(attributes) and methods (behaviour) within a class 
+and restricting acces to databy making it private.
+It promotes the concept of data hiding and ensures that the internal state of an object is accessible 
+and modifiable only through well defined methods (getters and setters)
+
+Inheritance-
+Inheritance is a concept of OOPs where one class inherits from another class
+ that can reuse the methods and fields of the parent class.
+we need inheritance for
+overriding
+abstraction
+code reusablity
+
+
+Polymorphism-
+1.compileTime :(static binding)
+
+method overloading
+2.Runtime:(Dynamic binding)
+
+method overriding
